@@ -63,7 +63,7 @@ public class actioner {
 			}
 			else if(data.equals("IE")){
 				//Dummy Code, Implement you own code
-				File file = new File("C:\\Users\\c24088773\\Desktop\\Selenium tests\\IEDriverServer.exe");
+				File file = new File("IEDriverServer.exe");
 				System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 				DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 		        ieCapabilities.setCapability(CapabilityType.BROWSER_NAME, "IE");

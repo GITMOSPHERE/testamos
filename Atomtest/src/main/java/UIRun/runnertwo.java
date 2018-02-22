@@ -16,7 +16,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 	        outputFolder = "target")
 
 	@CucumberOptions(
-			features = {"C:\\Users\\c24088773\\Desktop\\Selenium tests\\Atomtest\\src\\test\\resources\\Feature\\Jenkinslogin.feature"},
+			features = {"Jenkinslogin.feature"},
 						glue = "MainPack",
 			plugin = { "html:target/cucumber-html-report",
 						"json:target/cucumber.json", 
