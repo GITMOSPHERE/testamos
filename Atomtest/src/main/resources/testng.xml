@@ -1,0 +1,7 @@
+<suite name="testchamber">
+	<test name="testone">
+		<classes>
+			<class name="UIRun.runnertwo" />
+		</classes>
+	</test>
+</suite>
