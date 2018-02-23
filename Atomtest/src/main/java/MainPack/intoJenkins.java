@@ -48,7 +48,7 @@ public class intoJenkins extends GetdatafromExcel {
     // Write code here that turns the phrase above into concrete actions
     //throw new PendingException();
 	actioner.openBrowser("IE");
-	actioner.navigateTo("http://localhost:8080");
+	actioner.navigateTo("http://localhost:8080/login?from=%2F");
 	System.out.println("Am launcing the browser");
 }
 
