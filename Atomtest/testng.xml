@@ -1,13 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="testchamber">
-  <classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
-        <attributes>
-            <attribute name="maven.pomderived" value="true"/>
-            <attribute name="org.eclipse.jst.component.nondependency" value=""/>
-        </attributes>
-</classpathentry> 
-	<test name="testone">
-		<classes>
-			<class name="UIRun.runnertwo" />
-		</classes>
+<test name="testone">
+          <!-- <classes><class name="com.org.frameworkFiles.runners.GoogleSearchCheese"/></classes> -->
+       <!--  <classes><class name="com.org.frameworkFiles.runners.MyHCL"/></classes> -->
+       <classes><class name="UIRun.Run1Test"/></classes>
 	</test>
 </suite>

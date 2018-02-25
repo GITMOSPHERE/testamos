@@ -16,7 +16,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 	        outputFolder = "target")
 
 	@CucumberOptions(
-			features = {"Jenkinslogin.feature"},
+			features = {"src\\test\\resources\\Feature\\Jenkinslogin.feature"},
 						glue = "MainPack",
 			plugin = { "html:target/cucumber-html-report",
 						"json:target/cucumber.json", 
@@ -28,7 +28,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 	/*"html:target/Masterthought",*/
 		
 
-public class runnertwo {
+public class Run1Test {
 
 		public void runCukes() throws Throwable
 {
